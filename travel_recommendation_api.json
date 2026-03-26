@@ -1,0 +1,104 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+          "description": "A neon-lit metropolis where ancient shrines hide between skyscrapers and cherry blossoms paint the streets pink every spring.",
+          "timeZone": "Asia/Tokyo"
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800",
+          "description": "Step into a living museum of wooden temples, geisha districts, and moss-covered zen gardens.",
+          "timeZone": "Asia/Tokyo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Italy",
+      "cities": [
+        {
+          "name": "Rome, Italy",
+          "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800",
+          "description": "Walk through 2,000 years of history — from the Colosseum at golden hour to gelato at the Trevi Fountain.",
+          "timeZone": "Europe/Rome"
+        },
+        {
+          "name": "Venice, Italy",
+          "imageUrl": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800",
+          "description": "A floating city of canals, masked carnivals, and Renaissance palaces slowly sinking into the Adriatic sea.",
+          "timeZone": "Europe/Rome"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Morocco",
+      "cities": [
+        {
+          "name": "Marrakech, Morocco",
+          "imageUrl": "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800",
+          "description": "Lose yourself in a labyrinth of souks, riads, and rooftop terraces perfumed with saffron and rose water.",
+          "timeZone": "Africa/Casablanca"
+        },
+        {
+          "name": "Chefchaouen, Morocco",
+          "imageUrl": "https://images.unsplash.com/photo-1548019979-2f6b1c4e6a3c?w=800",
+          "description": "The Blue Pearl of Morocco — a mountain village painted entirely in shades of electric blue and cobalt.",
+          "timeZone": "Africa/Casablanca"
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1599283787923-51b965a58b05?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The world's largest religious monument — a stone galaxy of towers rising from a moat at sunrise, wrapped in jungle.",
+      "timeZone": "Asia/Phnom_Penh"
+    },
+    {
+      "id": 2,
+      "name": "Petra, Jordan",
+      "imageUrl": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800",
+      "description": "The Rose City carved directly into rose-red cliffs by the Nabataean civilization over 2,000 years ago.",
+      "timeZone": "Asia/Amman"
+    },
+    {
+      "id": 3,
+      "name": "Borobudur, Indonesia",
+      "imageUrl": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800",
+      "description": "A 9th-century Buddhist mandala in stone, wrapped in morning mist and surrounded by volcanic peaks.",
+      "timeZone": "Asia/Jakarta"
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=800",
+      "description": "Overwater bungalows hovering above a lagoon so impossibly turquoise it looks like it was Photoshopped by God.",
+      "timeZone": "Pacific/Tahiti"
+    },
+    {
+      "id": 2,
+      "name": "Navagio Beach, Greece",
+      "imageUrl": "https://images.unsplash.com/photo-1504512485720-7d83a16ee930?w=800",
+      "description": "A shipwreck rusting on blinding white sand, enclosed by 200-meter limestone cliffs — accessible only by boat.",
+      "timeZone": "Europe/Athens"
+    },
+    {
+      "id": 3,
+      "name": "Phi Phi Islands, Thailand",
+      "imageUrl": "https://images.unsplash.com/photo-1537956965359-7573183d1f57?w=800",
+      "description": "Emerald waters, karst limestone towers, and long-tail boats — the island paradise that launched a thousand screensavers.",
+      "timeZone": "Asia/Bangkok"
+    }
+  ]
+}

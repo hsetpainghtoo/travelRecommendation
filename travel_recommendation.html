@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WANDERLUX | Travel Recommendations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="travel_recommendation.html" class="logo">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L4.5 20.29L5.21 21L12 18L18.79 21L19.5 20.29L12 2Z"/>
+      </svg>
+      WANDERLUX
+    </a>
+    <div class="nav-links">
+      <a href="travel_recommendation.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-search">
+      <input type="text" id="searchInput" class="search-input" placeholder="Enter destination...">
+      <button id="searchBtn" class="btn btn-gold">Search</button>
+      <button id="clearBtn" class="btn btn-ghost">Clear</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <span class="hero-label fade-in">✦ DISCOVER THE WORLD ✦</span>
+      <h1 class="fade-in">
+        <span>WHERE EVERY</span>
+        <span class="gold-text">HORIZON CALLS</span>
+      </h1>
+      <p class="hero-subtext fade-in">Curated journeys for the discerning traveler</p>
+      <div class="hero-btns fade-in">
+        <a href="#resultsSection" class="btn btn-gold">Explore Now</a>
+        <a href="#" class="btn btn-ghost">Watch Film ▶</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>▼</span>
+    </div>
+  </section>
+
+  <!-- Marquee Strip -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-item">Tokyo ✦</span>
+      <span class="marquee-item">Bora Bora ✦</span>
+      <span class="marquee-item">Petra ✦</span>
+      <span class="marquee-item">Venice ✦</span>
+      <span class="marquee-item">Marrakech ✦</span>
+      <span class="marquee-item">Angkor Wat ✦</span>
+      <span class="marquee-item">Kyoto ✦</span>
+      <span class="marquee-item">Rome ✦</span>
+      <span class="marquee-item">Chefchaouen ✦</span>
+      <span class="marquee-item">Phi Phi Islands ✦</span>
+      <!-- Duplicate for infinite effect -->
+      <span class="marquee-item">Tokyo ✦</span>
+      <span class="marquee-item">Bora Bora ✦</span>
+      <span class="marquee-item">Petra ✦</span>
+      <span class="marquee-item">Venice ✦</span>
+      <span class="marquee-item">Marrakech ✦</span>
+      <span class="marquee-item">Angkor Wat ✦</span>
+      <span class="marquee-item">Kyoto ✦</span>
+      <span class="marquee-item">Rome ✦</span>
+      <span class="marquee-item">Chefchaouen ✦</span>
+      <span class="marquee-item">Phi Phi Islands ✦</span>
+    </div>
+  </div>
+
+  <!-- Search Results Section -->
+  <section id="resultsSection" class="section" style="display: none;">
+    <h2 class="section-title gold-text">— Search Results —</h2>
+    <div id="resultsGrid" class="grid">
+      <!-- Cards will be injected here via JS -->
+    </div>
+  </section>
+
+  <!-- Features Strip -->
+  <section class="section">
+    <div class="features-grid">
+      <div class="feature-box card fade-in">
+        <span class="feature-icon">🗺</span>
+        <h3 class="gold-text">Curated Routes</h3>
+        <p>Hand-picked by local experts who know the hidden gems of every destination.</p>
+      </div>
+      <div class="feature-box card fade-in">
+        <span class="feature-icon">✈</span>
+        <h3 class="gold-text">Seamless Booking</h3>
+        <p>One click to paradise. We handle the complexity so you can enjoy the journey.</p>
+      </div>
+      <div class="feature-box card fade-in">
+        <span class="feature-icon">🌙</span>
+        <h3 class="gold-text">24/7 Concierge</h3>
+        <p>We're always here for you, ensuring every moment of your trip is perfect.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>

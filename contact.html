@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | WANDERLUX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="cursor"></div>
+
+  <!-- Navbar (No Search) -->
+  <nav class="navbar">
+    <a href="travel_recommendation.html" class="logo">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L4.5 20.29L5.21 21L12 18L18.79 21L19.5 20.29L12 2Z"/>
+      </svg>
+      WANDERLUX
+    </a>
+    <div class="nav-links">
+      <a href="travel_recommendation.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div></div> <!-- Empty div for spacing -->
+  </nav>
+
+  <section class="section">
+    <div class="contact-container">
+      <div class="contact-info fade-in">
+        <span class="hero-label">GET IN TOUCH</span>
+        <h2>
+          <span>Let's Plan Your</span><br>
+          <span class="gold-text">Dream Journey</span>
+        </h2>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <i>📍</i>
+            <div>
+              <p style="font-weight: 400;">Global Headquarters</p>
+              <p style="opacity: 0.7;">123 Luxury Lane, Geneva, Switzerland</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i>📧</i>
+            <div>
+              <p style="font-weight: 400;">Email Us</p>
+              <p style="opacity: 0.7;">concierge@wanderlux.travel</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i>📞</i>
+            <div>
+              <p style="font-weight: 400;">24/7 Priority Line</p>
+              <p style="opacity: 0.7;">+41 79 123 45 67</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links" style="justify-content: flex-start; margin-top: 40px; font-size: 1.5rem;">
+          <a href="#">Insta ✦</a>
+          <a href="#">Face ✦</a>
+          <a href="#">Link ✦</a>
+        </div>
+      </div>
+
+      <div class="card contact-form fade-in">
+        <form>
+          <div class="form-group">
+            <label class="hero-label" style="font-size: 0.6rem;">Full Name</label>
+            <input type="text" class="form-input" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label class="hero-label" style="font-size: 0.6rem;">Email Address</label>
+            <input type="email" class="form-input" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label class="hero-label" style="font-size: 0.6rem;">Destination Interest</label>
+            <select class="form-input">
+              <option value="">Select a region</option>
+              <option value="japan">Japan & East Asia</option>
+              <option value="italy">Italy & Europe</option>
+              <option value="morocco">Morocco & North Africa</option>
+              <option value="beaches">Private Islands</option>
+              <option value="temples">Historical Sites</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="hero-label" style="font-size: 0.6rem;">Your Message</label>
+            <textarea class="form-input" placeholder="How can we help you?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold" style="width: 100%; border-radius: 8px;">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
