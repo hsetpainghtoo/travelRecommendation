@@ -213,6 +213,7 @@ h1, h2, h3, h4, .logo {
 .gold-text {
   background: linear-gradient(135deg, #c9a84c, #e8c97a, #c9a84c);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% auto;
   animation: shimmer 3s linear infinite;
@@ -551,12 +552,47 @@ textarea.form-input {
   height: 100px;
 }
 
+/* Social Sidebar */
+.social-sidebar {
+  position: fixed;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  z-index: 100;
+}
+
+.social-sidebar a {
+  color: var(--cream);
+  font-size: 1.2rem;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-sidebar a:hover {
+  opacity: 1;
+  color: var(--gold);
+  transform: scale(1.2);
+}
+
+.social-sidebar svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
 /* Responsiveness */
 @media (max-width: 1024px) {
   .hero h1 { font-size: 4rem; }
   .contact-container { grid-template-columns: 1fr; }
   .about-hero { flex-direction: column; }
   .about-text, .about-images { flex: 0 0 100%; }
+  .social-sidebar { left: 15px; }
 }
 
 @media (max-width: 768px) {
@@ -565,4 +601,5 @@ textarea.form-input {
   .features-grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: 3rem; }
   .section-title { font-size: 2rem; }
+  .social-sidebar { display: none; }
 }
